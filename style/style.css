@@ -103,7 +103,7 @@
 }
 .skill{
     padding: 30px;
-   /* background-color: rgba(84, 144, 245, 0.2); */
+    border-radius: 20px;
 }
 .skills-1{
     background-color: rgba(84, 144, 245, 0.2);
@@ -136,21 +136,40 @@ background-color: rgb(9, 161, 92);
     margin-bottom: 24px;
 }
 /* recent box */
-/* .recent{
+ .recent{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
     text-align: justify;
     gap: 25px;
     background-color: rgb(255, 255, 255);
-    border: 3px solid green;
-    margin: 50px 50px 50px 50px;
+    border-radius: 15px;
+    padding: 50px 50px;
+}
+.main-title{
+    background-color: main-title;
 }
 .recent-box-1{
     border: 2px solid greenyellow;
     width: 408px;
-height: 306px;
+    height: 306px;
+    border-radius: 30px;
+}
+.recent-box{
+    border-radius: 20px;
 }
 .recent-box-2{
-    border: 2px solid tomato;
-} */
+   
+} 
+.recent-box-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.recent-time{
+    color: rgba(14, 14, 14, 0.7);
+    margin: 10px 10px;
+}
+.section-description-title{
+   margin-bottom: 30px;
+}
