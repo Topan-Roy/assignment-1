@@ -22,6 +22,10 @@
     font-weight: 600; 
     border-radius: 8px;
     border:none;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background: #39ce14f0;
 }
 /* navber style */
 .navber{
@@ -36,16 +40,17 @@
     font-size: 32px;
     color: rgb(14, 14, 14);
 }
-.resume-btn{
-    
-}
 .resume{
     padding: 15px 30px 15px 30px;
     font-size: 18px;
     font-weight: bold; 
     color:rgb(0, 106, 80);
-   border: 2px solid rgb(0, 106, 80);
+   border: 1px solid rgb(0, 106, 80);
     border-radius: 5px;
+    cursor: pointer;
+}
+.resume:hover {
+    background: #67e248f0;
 }
 /* banner style */
 .banner{
@@ -69,7 +74,7 @@
 }
 .banner-title{
     color: rgb(14, 14, 14);
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
     text-align: left;
     margin-bottom: 20px;
@@ -117,6 +122,9 @@
 .btn-primary-1{
     background-color: rgb(84, 144, 245);
 }
+.btn-primary-1 :hover{
+    background-color: aqua;
+}
 .btn-primary-2{
 background-color: rgb(9, 161, 92);
 }
@@ -135,6 +143,30 @@ background-color: rgb(9, 161, 92);
     font-weight: 400;
     margin-bottom: 24px;
 }
+/* Yunus style */
+.section-yunus{
+    margin-top: 32px;
+    background-color: #fff;
+    padding: 48px 24px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+    border-radius: 16px;
+}
+.yunus-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #0e0e0ecb;
+    margin: 12px 0 4px 0;
+}
+.yunus-title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e0e0e84;
+}
+
+
 /* recent box */
  .recent{
     display: flex;
@@ -158,9 +190,6 @@ background-color: rgb(9, 161, 92);
 .recent-box{
     border-radius: 20px;
 }
-.recent-box-2{
-   
-} 
 .recent-box-title{
     color: rgba(14, 14, 14, 0.8);
     font-size: 30px;
@@ -183,6 +212,9 @@ background-color: rgb(9, 161, 92);
     display: flex;
     justify-content: flex-start;
 }
+.donate-box:hover {
+    background: #5cec38f0;
+}
 .donatr-center-title{
     color: rgb(14, 14, 14);
     font-size: 40px;
@@ -202,22 +234,24 @@ background-color: rgb(9, 161, 92);
 } 
 .donate-box{
     color: rgba(14, 14, 14, 0.8);
-    border: 2px solid rebeccapurple;
     background-color:rgb(255, 255, 255);
     padding: 30px 50px;
     font-size: 30px;
     border-radius: 10px;
     margin: 0px 20px;
     border: none;
+    cursor: pointer;
 }
 .donate-box-1{
     background-color: rgb(198, 228, 214);
 }
-.donate-amount-title{ background-color: rgb(255, 255, 255);
-   padding: 15px 450px; 
+.donate-amount-title{ 
+   background-color: rgb(255, 255, 255);
+   margin: 30px 120px;
+   padding: 20px 40px;
    border-radius: 10px;
-   border: none;
-   margin: 10px 30px;
+   font-size: 20px;
+   color: rgba(14, 14, 14, 0.58);
 }
 
 /* footer section */
@@ -232,3 +266,6 @@ background-color: rgb(9, 161, 92);
 .footer-social a {
     margin-right: 15px;
 }
+
+
+
